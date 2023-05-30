@@ -1,11 +1,12 @@
 <html>
+  <title>Meme upload</title>
   <head>
     <link rel="stylesheet" href="righty-font/stylesheet.css" type="text/css" charset="utf-8"/>
   </head>
   <body>
     <p align='center' style='font-family: righteousregular;'>Paste the url here:</p>
-    <form>
-      <input style='font-family: righteousregular;' type='url' placeholder='URL'><br>
+    <form onsubmit='upload()'>
+      <input id='url' style='font-family: righteousregular;' type='url' placeholder='URL'><br>
       <input style='font-family: righteousregular;' type='submit'>Upload<br>
     </form>
   </body>
